@@ -1,0 +1,65 @@
+h1 {
+    text-align: center; color: #00a2ff; font-size: 50px; ; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    text-align: center; color: #00a2ff; font-size: 25px; ; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+}
+ ul {
+    display: table;
+    margin: 0 auto;
+}
+.button {
+    background-color: #F5F5DC;
+    border: none;
+    color: #00a2ff;
+    padding: 20px 34px;
+    text-decoration: wavy;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+color: deeppink;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #00a2ff;
+}
+a:hover {
+    color: deeppink;
+}
+hr {
+    border-color: deeppink;
+    height: 3px;
+    background-color: deeppink;
+}
+.link {
+
+}
